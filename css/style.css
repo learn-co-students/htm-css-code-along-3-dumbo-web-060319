@@ -1,0 +1,28 @@
+/* Import our new fonts */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+
+body {
+  background-color: aquamarine;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif; */
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive, 'Times New Roman',
+    Times, serif;
+  color: rgb(46, 46, 46);
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em 'Clicker Script', cursive;
+  color: azure;
+  text-shadow: 0 2px 3px #000;
+}
